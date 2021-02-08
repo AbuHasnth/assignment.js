@@ -64,13 +64,20 @@ function hotelCost(days){
 
                 // Fourth Task
 
-function megaFriend(names){
-    var bigger = names[];
-    for (var i = 0; i<= names.length; i++){
-        var element = names[i];
-        if(element.legth>bigger.length){
-            bigger = element;
-        }
-    }
-    console.log(bigger);
-}
+                function megaFriend(names){
+                    if(names ==0 && names < 0){
+                        console.log("invalid string");
+                    }
+                    else{
+                        var bigger= names[0];
+                for(var i= 0; i<names.length; i++){
+                    var element = names[i];
+                    if (element.length > bigger.length){
+                        bigger = element;
+                    }
+                }
+                console.log(bigger)
+                    }
+                }
+    
+
